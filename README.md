@@ -4,12 +4,11 @@
 
 Modified simulation code from http://web.stanford.edu/class/cs221/assignments/car/index.html.
 
-Papers: https://docs.google.com/document/d/1Pz4Qvs8Kk-znUOQjNt30FossQv1w_JmS5nz_jJuX-0c/edit
-
-Changes - sensor simulation, path planning algorithm, partial observability
+Changes - sensor simulation and fusion, path planning algorithm, particle filter inference, ability of jumping
 
 Sensors Simulated - Radar, Lidar
 
-Command: `python2 drive.py -a -i particleFilter -l lombard`
+Command: `python2 drive.py -a -i particleFilter -l lombard` 
+`python2 drive.py -a -i particleFilter -l small`
 
 Online path planning
