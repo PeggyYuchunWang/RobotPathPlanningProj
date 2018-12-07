@@ -8,6 +8,8 @@ Papers: https://docs.google.com/document/d/1Pz4Qvs8Kk-znUOQjNt30FossQv1w_JmS5nz_
 
 Changes - sensor simulation, path planning algorithm, partial observability
 
-Sensors Simulated - GPS, Radar, Lidar
+Sensors Simulated - Radar, Lidar
+
+Command: python drive.py -a -i particleFilter -l lombard
 
 Online path planning
