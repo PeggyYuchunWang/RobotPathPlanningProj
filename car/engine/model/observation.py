@@ -17,21 +17,7 @@ class RadarObservation(object):
     def getDist(self):
         return self.dist
 
-class CameraObservation(object):
-    def __init__(self, dist):
-        self.dist = dist
-
-    def getDist(self):
-        return self.dist
-
 class LidarObservation(object):
-    def __init__(self, dist):
-        self.dist = dist
-
-    def getDist(self):
-        return self.dist
-
-class GPSObservation(object):
     def __init__(self, dist):
         self.dist = dist
 
