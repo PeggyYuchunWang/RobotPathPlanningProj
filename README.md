@@ -10,6 +10,6 @@ Changes - sensor simulation, path planning algorithm, partial observability
 
 Sensors Simulated - Radar, Lidar
 
-Command: `python drive.py -a -i particleFilter -l lombard`
+Command: `python2 drive.py -a -i particleFilter -l lombard`
 
 Online path planning
